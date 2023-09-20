@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Resolution = () => {
   // State to hold the current resolution and game URL
   const [resolution, setResolution] = useState({ width: 1280, height: 720 });
-  const [gameUrl, setGameUrl] = useState('https://www.crazygames.com/embed/eggbot-vs-zombies');
+  const [gameUrl, setGameUrl] = useState('https://www.crazygames.com/embed/laser-nodes');
 
   // Function to change the resolution
   const changeResolution = (width:number, height:number) => {
